@@ -1,0 +1,33 @@
+.header {
+    background-color: #000;
+    padding:  2rem 0 0;
+}
+
+.header .h1 a {
+    font-family: 'Caveat', cursive;
+    color: rgba(255,255,255,.8);
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 3px 1px 5px #ababab;
+    text-decoration: none;
+}
+.header-search {
+    position: relative;
+}
+.header-search .form-control {
+    background-color: rgba(255,255,255,.2) !important;
+    border: none;
+    border-radius: 9rem;
+    color: rgba(255,255,255,.8);
+}
+button.btn.btn-search {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translate(0,-50%);
+    z-index: 3;
+    color: rgba(255,255,255,.8);
+}
+button.btn.btn-search svg {
+    fill: rgba(255,255,255,.8);
+}

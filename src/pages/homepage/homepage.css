@@ -1,0 +1,19 @@
+.banner-top {
+    flex-wrap: nowrap;
+    margin: 1rem 0 0 0;
+}
+.banner-top--img {
+    align-self: stretch;
+}
+.banner-top--img img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.main-product {
+    max-width: 96%;
+    width: 100%;
+    margin: 5rem auto;
+}

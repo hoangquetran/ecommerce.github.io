@@ -1,0 +1,25 @@
+.cart {
+    text-decoration: none;
+}
+.cart:hover {
+    opacity: .85;
+}
+.cart-txt {
+    padding: 0;
+}
+.cart-txt p {
+    color: rgba(255,255,255,.8);
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+}
+.cart-bag {
+    padding: 0 0 1rem 0;
+    position: relative;
+}
+span.badge.bg-secondary {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background: transparent!important;
+}

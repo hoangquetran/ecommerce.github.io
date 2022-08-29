@@ -1,0 +1,112 @@
+.list-products {
+    margin: 0;
+}
+.product {
+    box-shadow: 1px 1px .625rem 1px #c9c9c9;
+    height: 100%;
+    position: relative;
+    margin: 1rem;
+    padding: 0;
+}
+.product .product-img {
+    position: relative;
+    height: 15rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem 1.5rem 0;
+}
+.product .product-img img {
+    width: 100%;
+    max-height: 15rem;
+    height: 100%;
+    object-fit: contain;
+    max-width: 15rem;
+}
+button.btn-addcart {
+    width: 100%;
+    background: #446084;
+    padding: 0.815rem 0 0.25rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+button.btn-addcart:hover {
+    opacity: .8;
+    background: rgba(68,96, 132,.9);
+}
+button.btn-addcart:focus,
+button.btn-addcart:active {
+    box-shadow: none!important;
+    background: rgba(68,96, 132,.9)!important;
+}
+.product .product-txt {
+    padding: 1rem;
+    text-align: left;
+    background: #dfdfdf;
+    color: #446084;
+}
+.product .product-ttl {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+.product .product-cate {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: rgba(68,96,132,.62);
+    font-size: .825rem;
+}
+.product .product-price {
+    font-weight: 700;
+}
+.product a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.product a:hover {
+    opacity: .85;
+}
+
+/* popup detail */
+
+.modal-detail.modal.show .modal-dialog{
+    top: 50%;
+    transform: translate(0, -70%);
+    max-width: 40%;
+}
+.modal-detail img {
+    width: 100%;
+}
+
+.modal-detail.modal.show .product-txt {
+    color: #446084;
+}
+
+.modal-detail.modal.show .product-ttl {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 1rem;
+}
+.modal-detail.modal.show .product-ttl::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 3rem;
+    height: 2px;
+    background-color: #b9b9b9 ;
+}
+.modal-detail.modal.show .product-price {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.modal-detail.modal.show .product-rating span {
+    font-weight: 700;
+}
+.modal-detail.modal.show .modal-body {
+    padding-bottom: 2rem;
+}
